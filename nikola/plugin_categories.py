@@ -183,7 +183,6 @@ class BaseTask(BasePlugin):
 
 
 class EarlyTask(BaseTask):
-
     """Plugins of this type are task generators which are executed before tasks are generated."""
 
     name = "dummy_task"
